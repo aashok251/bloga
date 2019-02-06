@@ -1,0 +1,161 @@
+.customize-control-title {
+    margin-top: 15px;
+    color: rgb(0, 142, 214);
+}
+.bfastmag_repeater_container,
+.bfastmag_general_control_repeater_container {
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+    cursor: move;
+}
+.bfastmag_repeater_container .bfastmag-box-content-hidden,
+.bfastmag_general_control_repeater_container .bfastmag-box-content-hidden {
+    padding: 5px;
+    padding-top: 0;
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+}
+button.bfastmag_remove_field {
+    display: inline-block;
+    float: right;
+    width: 25% !important;
+    height: 57px !important;
+    line-height: 17px !important;
+    white-space: initial !important;
+}
+button.bfastmag_general_control_remove_field {
+    width: 100%;
+    margin-top: 10px!important;
+}
+button.bfastmag_general_control_remove_field:hover {
+    border: 0;
+    color: #fff!important;
+    background-color: #00a0d2!important;
+}
+.bfastmag_repeater_container .bfastmag_icon_link,
+.bfastmag_general_control_repeater_container .bfastmag_text_control,
+.bfastmag_general_control_repeater_container .bfastmag_link_control {
+    width: 100% !important;
+    margin: 3px 0 0 !important;
+}
+.bfastmag_repeater_container .bfastmag_icons,
+.bfastmag_general_control_repeater_container .bfastmag_icon_control {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#bfastmag_new_field,
+#bfastmag_general_control_new_field {
+    width: 100%;
+}
+.customize-control-widget_form .widget-control-save {
+    display: block !important;
+}
+.bfastmag-ad-widget {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto 10px;
+}
+.bfastmag-ad-widget-top {
+    padding: 0;
+    border: 1px solid #e5e5e5;
+    color: #23282d;
+    background: #fafafa;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4em;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+.bfastmag-ad-widget-inside {
+    display: none;
+}
+.bfastmag-ad-widget-title {
+    overflow: hidden;
+    margin: 0;
+    padding: 0 15px;
+    font-size: 1em;
+    font-size: 1em;
+    line-height: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bfastmag-ad-widget-inside {
+    padding: 1px 10px 10px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    background: #fff;
+    line-height: 16px;
+}
+.bfastmag_our_services_image_control {
+    display: none;
+}
+.bfastmag_our_services_icon_control {
+    display: none;
+}
+.bfastmag_general_control_repeater_container .bfastmag-box-content-hidden {
+    display: none;
+}
+.bfastmag-box-content-hidden {
+    background-color: #fff;
+}
+.bfastmag-customize-control-title {
+    overflow: hidden;
+    height: 40px;
+    padding: 0 10px !important;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    color: #00a0d2;
+    background-color: #f1f1f1;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#ececec));
+    background-image: -webkit-linear-gradient(top, #f9f9f9, #ececec);
+    -webkit-box-shadow: inset 0 1px 0 #fff;
+    box-shadow: inset 0 1px 0 #fff;
+    font-weight: bold;
+    line-height: 40px !important;
+    text-align: center;
+    cursor: move !important;
+}
+.bfastmag_image_control .custom_media_button_bfastmag {
+    margin-top: 5px;
+}
+#customize-control-bfastmag_contact_form_shortcode {
+    display: none;
+}
+.bfastmag_radio_control {
+    margin-top: 0;
+}
+.bfastmag_general_control_repeater_container .bfastmag-box-content-hidden {
+    padding-top: 5px;
+}
+#accordion-section-bfastmag_shop_section .accordion-section-title,
+#accordion-section-bfastmag_blocks_order .accordion-section-title,
+#accordion-section-bfastmag_features_ribbon_section .accordion-section-title,
+#accordion-section-bfastmag_portfolio_section .accordion-section-title,
+#accordion-section-bfastmag_shortcodes_section .accordion-section-title,
+#accordion-section-bfastmag_new_features .accordion-section-title {
+    background-image: url(../images/gray-lines.png);
+    background-repeat: repeat;
+}
+#accordion-section-bfastmag_shop_section .accordion-section-title:after,
+#accordion-section-bfastmag_blocks_order .accordion-section-title:after,
+#accordion-section-bfastmag_features_ribbon_section .accordion-section-title:after,
+#accordion-section-bfastmag_portfolio_section .accordion-section-title:after,
+#accordion-section-bfastmag_shortcodes_section .accordion-section-title:after,
+#accordion-section-bfastmag_new_features .accordion-section-title:after {
+    content: "\f160";
+}
+.bfastmag-theme-info a {
+    display: block;
+    padding: 4px 10px;
+    text-decoration: none;
+    text-align: left;
+}
